@@ -3,7 +3,8 @@ require "formula"
 class Flam3 < Formula
   homepage "http://code.google.com/p/flam3/"
   url "https://flam3.googlecode.com/files/flam3-3.0.1.tar.gz"
-  sha1 "8814515f2e49e034e47cf97e9d2c0e932844abb9"
+#  sha1 "8814515f2e49e034e47cf97e9d2c0e932844abb9"
+  sha256 "70810049604527a689ba172670c152b463273255e46f0f04091c867399859aa7"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
